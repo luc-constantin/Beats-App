@@ -157,10 +157,10 @@ li:hover {
     }
 }
 
-@media (min-width: 800px){
+@media (max-width: 991px){
     body {
         max-width: 60vw;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         /* box-shadow: 0 1px 13px #666666; */
     }
 
