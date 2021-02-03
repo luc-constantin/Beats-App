@@ -17,7 +17,7 @@ body {
 }
 
 .player {
-    margin: 1rem 5rem 2rem 5rem;
+    margin: 15px 7px 15px 7px;
     background:
     radial-gradient(circle, rgba(63,94,251,1)  11%, rgb(125, 78, 235) 100%);
     padding: 22px;
