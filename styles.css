@@ -1,0 +1,173 @@
+html {
+   font-size: 10px;
+   font-family: 'Roboto', sans-serif;  
+}
+
+body {
+    background: 
+    linear-gradient(24deg, rgba(92, 34, 228, 0.651) 100%, rgba(63,94,251,1) 51%);
+    min-height: 100vh;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    filter: drop-shadow(2px 4px 20px #666666);
+
+}
+
+.player {
+    margin: 1rem 5rem 2rem 5rem;
+    background:
+    radial-gradient(circle, rgba(63,94,251,1)  11%, rgb(125, 78, 235) 100%);
+    padding: 22px;
+    border-radius: 8rem;
+    filter: drop-shadow(2px 4px 10px #666666);
+}
+
+img {
+    width: 50%;
+    filter: drop-shadow(-5px 4px 10px #646464);
+}
+
+progress {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1.3rem;
+}
+
+#progress {
+    color:lightgreen!important
+}
+
+#controls {
+    border: 1px #c2c2c2 solid;
+    border-radius: 4rem;
+    padding: 1.8rem;
+    box-shadow: 0 1px 13px #cfcfcf;
+}
+
+.control_wrapper > span {
+    cursor: pointer;
+    font-size: 4rem;
+}
+
+
+#play {
+    color:#66ff33;
+    font-size: 5rem;
+    padding-right: 5px;
+}
+
+#play:hover {
+    color: rgb(125, 78, 235);
+}
+
+#pause {
+    color:#66ff33;
+    font-size: 5.5rem;
+
+}
+
+#pause:hover {
+    color:#e25d5d;
+}
+
+#next {
+    color:#b166fd;
+    font-size: 40px;
+    padding-left: 2%;
+}
+
+#previuos {
+    color:#b166fd;
+    font-size: 40px;
+    padding-right: 1%;
+}
+
+input[type='range'] {
+    overflow: hidden;
+    width: 150px;
+    height: 18px;
+    -webkit-appearance: none;
+    background-color: #b166fd;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  /* /* input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #13bba4;
+    margin-top: -1px;
+  } */
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    height: 15px;
+    cursor: ew-resize;
+    background: #66ff33;
+    border-radius: 7px;
+    box-shadow: -80px 0 0 80px #b166fd;
+  } */
+
+#currentSong {
+    overflow: hidden;
+}
+
+#songList {
+    overflow: hidden;
+    text-align: left;
+}
+
+a {
+    color:#47eb10;
+    font-weight: 900;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+li:hover {
+   
+    background: #e25d5d;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px #666666;
+}
+
+
+.pulse {
+    animation: pulse;
+    animation-duration: 4s
+}
+
+@keyframes pulse {
+    from{
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 700px){
+    body {
+        max-width: 60vw;
+        font-size: 1.5rem;
+        /* box-shadow: 0 1px 13px #666666; */
+    }
+
+    img {
+        width: 50%;
+    }
+
+}
+
+/* created by AccoladesDEV */
