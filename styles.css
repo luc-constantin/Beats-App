@@ -142,18 +142,18 @@ li:hover {
 
 .pulse {
     animation: pulse;
-    animation-duration: infinite;
+    animation-duration: 5s;
 }
 
 @keyframes pulse {
     from{
         transform: scale(1);
     }
-    50% {
-        transform: scale(0.9);
+    30% {
+        transform: scale(5);
     }
     to {
-        transform: scale(1);
+        transform: scale(0.9);
     }
 }
 
@@ -163,11 +163,11 @@ li:hover {
         font-size: 1.3rem;
         /* box-shadow: 0 1px 13px #666666; */
     }
-
+/* 
     img {
         width: 50%;
-    }
+    } */
 
-} */
+}
 
 /* created by AccoladesDEV */
